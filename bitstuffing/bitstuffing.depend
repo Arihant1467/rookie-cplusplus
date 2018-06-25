@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1465146070 source:g:\codeblocks\bitstuffing\main.cpp
+	<iostream>
+	<conio.h>
+

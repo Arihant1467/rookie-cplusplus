@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1430503114 source:g:\codeblocks\dikstra\main.cpp
+	<stdio.h>
+	<limits.h>
+

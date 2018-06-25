@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1431664586 source:g:\codeblocks\binarysearch(recursive)\main.cpp
+	<iostream>
+	<stdlib.h>
+

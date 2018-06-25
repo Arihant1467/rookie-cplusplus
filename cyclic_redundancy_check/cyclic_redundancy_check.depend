@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1454863038 source:g:\codeblocks\cyclic_redundancy_check\main.cpp
+	<iostream>
+	<bitset>
+	<math.h>
+

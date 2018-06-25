@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525593078 source:g:\codeblocks\graphs\heapsort\main.cpp
+	<iostream>
+	<conio.h>
+

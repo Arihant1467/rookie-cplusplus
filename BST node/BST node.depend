@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1431620694 source:g:\codeblocks\bst node\main.cpp
+	<iostream>
+	<stdio.h>
+	<limits.h>
+

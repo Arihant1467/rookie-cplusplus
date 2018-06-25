@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504795946 source:g:\codeblocks\hackerearth\diametertree\main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+

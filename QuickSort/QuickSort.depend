@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1430593696 source:g:\codeblocks\quicksort\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+

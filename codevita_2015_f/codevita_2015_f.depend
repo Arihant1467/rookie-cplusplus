@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1439023631 source:g:\codeblocks\codevita_2015_f\main.cpp
+	<iostream>
+	<vector>
+	<math.h>
+

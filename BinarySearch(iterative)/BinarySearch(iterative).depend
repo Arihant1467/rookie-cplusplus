@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1431665427 source:g:\codeblocks\binarysearch(iterative)\main.cpp
+	<iostream>
+	<stdlib.h>
+	<limits.h>
+

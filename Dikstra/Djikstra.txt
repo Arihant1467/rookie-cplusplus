@@ -1,0 +1,104 @@
+#include<iostream>
+#include <stdio.h>
+#include <limits.h>
+#include<stdlib.h>
+using namespace std;
+#define V 9 // Number of vertices in the graph
+
+int minDistance(int dist[], bool sptSet[])  // here we find the vertex with minimum distance value from the set of vertices not yet included 
+{
+   // Initialize min value
+   int min = INT_MAX, min_index;
+
+   for (int v = 0; v < V; v++)
+     if (sptSet[v] == false && dist[v] <= min)
+         min = dist[v], min_index = v;
+
+   return min_index;
+}
+
+
+void printSolution(int dist[], int n)	// print the final constructed distance array
+{
+   cout<<"\nVertex distance from source\n\n";
+   for (int i = 0; i < V; i++)
+      cout<<i<<"\t\t"<<distaance[i]<<"\n";
+}
+
+
+
+void dijkstra(int graph[V][V], int src)	// Funtion that implements Dijkstra's single source shortest path algorithm 
+					// 1st arguement contains the graph with adjacency matrix 2nd arguement contains the source
+{
+     int dist[V];     // The output array dist[i] will hold the shortest path from src to i
+                      
+
+     bool sptSet[V]; // sptSet[i] will true if vertex i is included in shortest
+                     
+
+     
+     for (int i = 0; i < V; i++)	// Initialize all distances as INFINITE and stpSet[] as false
+     {   dist[i] = INT_MAX;
+	 sptSet[i] = false;
+     }
+     
+     dist[src] = 0;	// Distance of source vertex from itself is 0
+
+     // Find shortest path for all vertices
+     for (int count = 0; count < V-1; count++)
+     {
+       
+       
+       int u = minDistance(dist, sptSet);	// Pick the minimum distance vertex from the set of vertices not, it returns source in first iteration
+
+       
+       sptSet[u] = true;	// Marking the picked vertex as processed
+
+       // Update dist value of the adjacent vertices of the picked vertex.
+       for (int v = 0; v < V; v++)
+
+         // Update dist[v] only if is not in sptSet, there is an edge from
+         // u to v, and total weight of path from src to  v through u is
+         // smaller than current value of dist[v]
+         if (!sptSet[v] && graph[u][v] && dist[u] != INT_MAX
+                                       && dist[u]+graph[u][v] < dist[v])
+            dist[v] = dist[u] + graph[u][v];
+     }
+
+     // print the constructed distance array
+     printSolution(dist, V);
+}
+
+int main()
+{
+  
+   int graph[V][V] ;
+
+
+    system("cls");
+
+    system("cls");
+    cout<<"Enter The adjacency matrix:\n";		//Inputting the adjacency matrix of the graph
+    cout<<" \t";
+    for(int i=0;i<V;++i)
+    {
+        cout<<i<<"\t";
+    }
+    cout<<endl;
+    for(int l=0;l<V;++l)
+    {
+      cout<<l<<"\t";
+      for(int j=0;j<V;++j)
+      {
+          cin>>graph[l][j];
+          
+      }
+      cout<<endl;
+    }
+int source;
+cout<<"\n\n Enter The source of Graph\n";cin>>source;	// inputting the source from where we have to find shortest paths
+system("cls");
+dijkstra(graph, source);
+
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1438100314 source:g:\codeblocks\fun_with_prime\main.cpp
+	<iostream>
+	<stdio.h>
+

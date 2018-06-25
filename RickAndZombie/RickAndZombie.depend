@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1453023125 source:g:\codeblocks\rickandzombie\main.cpp
+	<iostream>
+	<vector>
+	<limits.h>
+	<algorithm>
+

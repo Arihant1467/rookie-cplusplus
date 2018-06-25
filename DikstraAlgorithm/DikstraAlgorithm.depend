@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1430660620 source:g:\codeblocks\dikstraalgorithm\main.cpp
+	<iostream>
+	<stdio.h>
+	<limits.h>
+	<stdlib.h>
+

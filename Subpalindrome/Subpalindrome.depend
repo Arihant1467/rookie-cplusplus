@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1436543654 source:g:\codeblocks\subpalindrome\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

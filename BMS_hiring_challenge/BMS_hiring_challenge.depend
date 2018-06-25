@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1436364874 source:g:\codeblocks\bms_hiring_challenge\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+

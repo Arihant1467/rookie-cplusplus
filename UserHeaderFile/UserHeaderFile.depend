@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1429357546 source:g:\codeblocks\userheaderfile\arihant.cpp
+	"Arihant.h"
+	<iostream>
+
+1429357436 g:\codeblocks\userheaderfile\arihant.h
+
+1429357943 source:g:\codeblocks\userheaderfile\arihant1.cpp
+	"Arihant1.h"
+	<iostream>
+
+1429357876 g:\codeblocks\userheaderfile\arihant1.h
+

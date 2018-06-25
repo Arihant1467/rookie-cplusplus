@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1439017333 source:g:\codeblocks\readwriteoperation\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457289367 source:g:\codeblocks\pucchi_string_hackerearth\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+

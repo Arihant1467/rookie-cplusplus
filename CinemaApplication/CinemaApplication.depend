@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1430999394 source:g:\codeblocks\cinemaapplication\main.cpp
+	<iostream>
+	"Cinema.h"
+	<stdlib.h>
+	<conio.h>
+
+1431013557 g:\codeblocks\cinemaapplication\cinema.h
+	<string>
+
+1431013557 source:g:\codeblocks\cinemaapplication\cinema.cpp
+	"Cinema.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string>
+	<fstream>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+
+1431286353 source:b:\semester -4\oot\cinemaapplication\cinema.cpp
+	"Cinema.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string>
+	<fstream>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+
+1431287329 b:\semester -4\oot\cinemaapplication\cinema.h
+	<string>
+
+1431284721 source:b:\semester -4\oot\cinemaapplication\main.cpp
+	<iostream>
+	"Cinema.h"
+	<stdlib.h>
+	<conio.h>
+
+1431287532 source:g:\cinemaapplication\main.cpp
+	<iostream>
+	"Cinema.h"
+	<stdlib.h>
+	<conio.h>
+
+1431287330 g:\cinemaapplication\cinema.h
+	<string>
+
+1431368740 source:g:\cinemaapplication\cinema.cpp
+	"Cinema.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string>
+	<fstream>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1446316881 source:g:\codeblocks\sstf_disk_schd\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<limits.h>
+

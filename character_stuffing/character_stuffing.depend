@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1465144454 source:g:\codeblocks\character_stuffing\main.cpp
+	<iostream>
+	<conio.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1505024059 source:g:\codeblocks\hackerearth\adjacentnode\main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+	<deque>
+

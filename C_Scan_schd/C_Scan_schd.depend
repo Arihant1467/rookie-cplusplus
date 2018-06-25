@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1446357060 source:g:\codeblocks\c_scan_schd\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+
